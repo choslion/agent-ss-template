@@ -22,9 +22,10 @@
 > 평문 마크다운으로 저장됩니다. GitHub에 올린다면 비공개 저장소를 쓰세요 —
 > 그러면 덤으로 비서의 기억이 여러 컴퓨터에서 동기화됩니다.
 
-## SS.bat (Windows)
+## SS.bat (Windows) / SS.command (Mac)
 
-더블클릭 한 번으로 SS를 여는 실행 파일입니다. 이 폴더로 이동한 뒤
+더블클릭 한 번으로 SS를 여는 실행 파일입니다 — Windows는 `SS.bat`,
+Mac은 `SS.command`. 이 폴더로 이동한 뒤
 `claude --model sonnet`을 실행해요. 기본 모델을 바꾸려면 파일 안의
 `--model` 플래그를 수정하고, 세션 중에는 `/model` 커맨드로 바꿀 수 있습니다.
 사전 준비물: [Claude Code 설치](https://claude.com/claude-code)
