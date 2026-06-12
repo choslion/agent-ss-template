@@ -1,0 +1,3 @@
+# Launchers need platform-correct line endings regardless of checkout machine
+*.command text eol=lf
+*.bat text eol=crlf
